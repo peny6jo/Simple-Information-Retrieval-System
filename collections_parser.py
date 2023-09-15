@@ -1,13 +1,13 @@
 import enum
 import nltk
-# nltk.download('stopwords')
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
 from logging import exception
 from pathlib import Path
 
 
-stop_words=set(stopwords.words('english'))
+stop_words=set(stopwords.words('english')) 
 
 
 def regextokenizer(data):
