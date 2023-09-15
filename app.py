@@ -1,7 +1,6 @@
 from distutils.log import error
 from unittest import result
 from numpy import append
-import nltk
 import streamlit as st
 from collections_parser import File
 from searchEngine import main, query_expansion_with_feedback
