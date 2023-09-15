@@ -11,3 +11,8 @@ Math module to work with mathematical functions and matPlotLib to graph.
 
 Streamlit framework, for the deployment of the web application necessary.
 
+Run the project:
+
+Create the virtual environment and install dependencis using command <pipenv shell>
+
+Once inside the environment go to the address where the app.py file is located and use the command <streamlit run app.py>
